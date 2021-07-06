@@ -15,7 +15,6 @@ func main() {
 
 	module, _ := tfconfig.LoadModule(dir)
 
-	//tfReqVersion := module.RequiredCore[0]
 	tfconstraints := module.Variables
 	for i, v := range tfconstraints {
 
